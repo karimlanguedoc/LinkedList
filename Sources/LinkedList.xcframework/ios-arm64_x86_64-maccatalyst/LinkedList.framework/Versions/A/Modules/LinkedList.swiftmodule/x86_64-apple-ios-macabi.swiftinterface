@@ -1,0 +1,60 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target x86_64-apple-ios16.4-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LinkedList
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import LinkedList
+import Swift
+import _Concurrency
+import _StringProcessing
+extension LinkedList.LinkedList {
+  public func append(value: T)
+  public func nodeAt(index: Swift.Int) -> LinkedList.LinkedList<T>.Node?
+  public func insert(value: T, at index: Swift.Int)
+  public func removeAll()
+  public func removeAt(index: Swift.Int) -> LinkedList.LinkedList<T>.Node?
+  public func firstIndexOf(value: T) -> Swift.Int?
+}
+public class LinkedList<T> : Swift.Codable where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable {
+  public typealias Node = LinkedList.LinkedListNode<T>
+  public var head: LinkedList.LinkedList<T>.Node?
+  public var isEmpty: Swift.Bool {
+    get
+  }
+  public var first: LinkedList.LinkedList<T>.Node? {
+    get
+  }
+  public var last: LinkedList.LinkedList<T>.Node? {
+    get
+  }
+  public func rawList() -> [T]
+  public init()
+  public init(from rawList: [T])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+final public class LinkedListService<T> where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable {
+  public init(key: Swift.String = "com.kl.list")
+  @objc deinit
+}
+extension LinkedList.LinkedListService {
+  final public func save() throws
+  final public func removeIfExists(searchedItem: T)
+  final public func add(searchedItem: T)
+  final public func add(searchedItem: T, at index: Swift.Int)
+  final public func removeAll()
+  final public func removeAt(index: Swift.Int) -> LinkedList.LinkedListNode<T>?
+  final public func fetchItemAt(index: Swift.Int) -> LinkedList.LinkedListNode<T>?
+  final public func fetchWithLimit(_ limit: Swift.Int) -> [LinkedList.LinkedListNode<T>]
+}
+public class LinkedListNode<T> : Swift.Codable, Swift.Equatable where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable {
+  public var value: T?
+  weak public var previous: LinkedList.LinkedListNode<T>?
+  public var next: LinkedList.LinkedListNode<T>?
+  public init(value: T)
+  public static func == (lhs: LinkedList.LinkedListNode<T>, rhs: LinkedList.LinkedListNode<T>) -> Swift.Bool
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}

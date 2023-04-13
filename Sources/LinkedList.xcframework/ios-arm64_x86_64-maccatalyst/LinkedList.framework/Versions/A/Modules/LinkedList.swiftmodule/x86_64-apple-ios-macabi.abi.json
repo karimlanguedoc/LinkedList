@@ -1,0 +1,1756 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LinkedList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LinkedList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LinkedList",
+        "printedName": "LinkedList",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "head",
+            "printedName": "head",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedListAAC4headAA0aB4NodeCyxGSgvp",
+            "mangledName": "$s10LinkedListAAC4headAA0aB4NodeCyxGSgvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedListAAC4headAA0aB4NodeCyxGSgvg",
+                "mangledName": "$s10LinkedListAAC4headAA0aB4NodeCyxGSgvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedListAAC4headAA0aB4NodeCyxGSgvs",
+                "mangledName": "$s10LinkedListAAC4headAA0aB4NodeCyxGSgvs",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedListAAC4headAA0aB4NodeCyxGSgvM",
+                "mangledName": "$s10LinkedListAAC4headAA0aB4NodeCyxGSgvM",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isEmpty",
+            "printedName": "isEmpty",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedListAAC7isEmptySbvp",
+            "mangledName": "$s10LinkedListAAC7isEmptySbvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedListAAC7isEmptySbvg",
+                "mangledName": "$s10LinkedListAAC7isEmptySbvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "first",
+            "printedName": "first",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedListAAC5firstAA0aB4NodeCyxGSgvp",
+            "mangledName": "$s10LinkedListAAC5firstAA0aB4NodeCyxGSgvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedListAAC5firstAA0aB4NodeCyxGSgvg",
+                "mangledName": "$s10LinkedListAAC5firstAA0aB4NodeCyxGSgvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "last",
+            "printedName": "last",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedListAAC4lastAA0aB4NodeCyxGSgvp",
+            "mangledName": "$s10LinkedListAAC4lastAA0aB4NodeCyxGSgvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedListAAC4lastAA0aB4NodeCyxGSgvg",
+                "mangledName": "$s10LinkedListAAC4lastAA0aB4NodeCyxGSgvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "rawList",
+            "printedName": "rawList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC03rawB0SayxGyF",
+            "mangledName": "$s10LinkedListAAC03rawB0SayxGyF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedList",
+                "printedName": "LinkedList.LinkedList<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedListAAC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LinkedListAACAByxGycfc",
+            "mangledName": "$s10LinkedListAACAByxGycfc",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedList",
+                "printedName": "LinkedList.LinkedList<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedListAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LinkedListAAC4fromAByxGSayxG_tcfc",
+            "mangledName": "$s10LinkedListAAC4fromAByxGSayxG_tcfc",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedList",
+                "printedName": "LinkedList.LinkedList<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedListAAC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LinkedListAAC4fromAByxGs7Decoder_p_tKcfc",
+            "mangledName": "$s10LinkedListAAC4fromAByxGs7Decoder_p_tKcfc",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10LinkedListAAC6encode2toys7Encoder_p_tKF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "append",
+            "printedName": "append(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC6append5valueyx_tF",
+            "mangledName": "$s10LinkedListAAC6append5valueyx_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "nodeAt",
+            "printedName": "nodeAt(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC6nodeAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "mangledName": "$s10LinkedListAAC6nodeAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(value:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC6insert5value2atyx_SitF",
+            "mangledName": "$s10LinkedListAAC6insert5value2atyx_SitF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC9removeAllyyF",
+            "mangledName": "$s10LinkedListAAC9removeAllyyF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAt",
+            "printedName": "removeAt(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC8removeAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "mangledName": "$s10LinkedListAAC8removeAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "firstIndexOf",
+            "printedName": "firstIndexOf(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedListAAC12firstIndexOf5valueSiSgx_tF",
+            "mangledName": "$s10LinkedListAAC12firstIndexOf5valueSiSgx_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LinkedListAAC",
+        "mangledName": "$s10LinkedListAAC",
+        "moduleName": "LinkedList",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LinkedList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LinkedListService",
+        "printedName": "LinkedListService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListService",
+                "printedName": "LinkedList.LinkedListService<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedList0aB7ServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LinkedList0aB7ServiceC3keyACyxGSS_tcfc",
+            "mangledName": "$s10LinkedList0aB7ServiceC3keyACyxGSS_tcfc",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC4saveyyKF",
+            "mangledName": "$s10LinkedList0aB7ServiceC4saveyyKF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeIfExists",
+            "printedName": "removeIfExists(searchedItem:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC14removeIfExists12searchedItemyx_tF",
+            "mangledName": "$s10LinkedList0aB7ServiceC14removeIfExists12searchedItemyx_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(searchedItem:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC3add12searchedItemyx_tF",
+            "mangledName": "$s10LinkedList0aB7ServiceC3add12searchedItemyx_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "add",
+            "printedName": "add(searchedItem:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC3add12searchedItem2atyx_SitF",
+            "mangledName": "$s10LinkedList0aB7ServiceC3add12searchedItem2atyx_SitF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAll",
+            "printedName": "removeAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC9removeAllyyF",
+            "mangledName": "$s10LinkedList0aB7ServiceC9removeAllyyF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAt",
+            "printedName": "removeAt(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC8removeAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "mangledName": "$s10LinkedList0aB7ServiceC8removeAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchItemAt",
+            "printedName": "fetchItemAt(index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC11fetchItemAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "mangledName": "$s10LinkedList0aB7ServiceC11fetchItemAt5indexAA0aB4NodeCyxGSgSi_tF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "fetchWithLimit",
+            "printedName": "fetchWithLimit(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[LinkedList.LinkedListNode<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB7ServiceC14fetchWithLimitySayAA0aB4NodeCyxGGSiF",
+            "mangledName": "$s10LinkedList0aB7ServiceC14fetchWithLimitySayAA0aB4NodeCyxGGSiF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LinkedList0aB7ServiceC",
+        "mangledName": "$s10LinkedList0aB7ServiceC",
+        "moduleName": "LinkedList",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LinkedList",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LinkedListNode",
+        "printedName": "LinkedListNode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedList0aB4NodeC5valuexSgvp",
+            "mangledName": "$s10LinkedList0aB4NodeC5valuexSgvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC5valuexSgvg",
+                "mangledName": "$s10LinkedList0aB4NodeC5valuexSgvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC5valuexSgvs",
+                "mangledName": "$s10LinkedList0aB4NodeC5valuexSgvs",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC5valuexSgvM",
+                "mangledName": "$s10LinkedList0aB4NodeC5valuexSgvM",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "previous",
+            "printedName": "previous",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedList0aB4NodeC8previousACyxGSgvp",
+            "mangledName": "$s10LinkedList0aB4NodeC8previousACyxGSgvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC8previousACyxGSgvg",
+                "mangledName": "$s10LinkedList0aB4NodeC8previousACyxGSgvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC8previousACyxGSgvs",
+                "mangledName": "$s10LinkedList0aB4NodeC8previousACyxGSgvs",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC8previousACyxGSgvM",
+                "mangledName": "$s10LinkedList0aB4NodeC8previousACyxGSgvM",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "next",
+            "printedName": "next",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LinkedListNode",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10LinkedList0aB4NodeC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10LinkedList0aB4NodeC4nextACyxGSgvp",
+            "mangledName": "$s10LinkedList0aB4NodeC4nextACyxGSgvp",
+            "moduleName": "LinkedList",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC4nextACyxGSgvg",
+                "mangledName": "$s10LinkedList0aB4NodeC4nextACyxGSgvg",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LinkedList.LinkedListNode<τ_0_0>?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LinkedListNode",
+                        "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10LinkedList0aB4NodeC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC4nextACyxGSgvs",
+                "mangledName": "$s10LinkedList0aB4NodeC4nextACyxGSgvs",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10LinkedList0aB4NodeC4nextACyxGSgvM",
+                "mangledName": "$s10LinkedList0aB4NodeC4nextACyxGSgvM",
+                "moduleName": "LinkedList",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+                "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListNode",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedList0aB4NodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LinkedList0aB4NodeC5valueACyxGx_tcfc",
+            "mangledName": "$s10LinkedList0aB4NodeC5valueACyxGx_tcfc",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListNode",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedList0aB4NodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListNode",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedList0aB4NodeC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB4NodeC2eeoiySbACyxG_AEtFZ",
+            "mangledName": "$s10LinkedList0aB4NodeC2eeoiySbACyxG_AEtFZ",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LinkedListNode",
+                "printedName": "LinkedList.LinkedListNode<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10LinkedList0aB4NodeC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10LinkedList0aB4NodeC4fromACyxGs7Decoder_p_tKcfc",
+            "mangledName": "$s10LinkedList0aB4NodeC4fromACyxGs7Decoder_p_tKcfc",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "implicit": true,
+            "declAttributes": [
+              "Required"
+            ],
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10LinkedList0aB4NodeC6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s10LinkedList0aB4NodeC6encode2toys7Encoder_p_tKF",
+            "moduleName": "LinkedList",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10LinkedList0aB4NodeC",
+        "mangledName": "$s10LinkedList0aB4NodeC",
+        "moduleName": "LinkedList",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable, τ_0_0 : Swift.Encodable, τ_0_0 : Swift.Equatable>",
+        "sugared_genericSig": "<T where T : Swift.Decodable, T : Swift.Encodable, T : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 766,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2074,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2115,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2313,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedList.swift",
+      "kind": "Array",
+      "offset": 626,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedListService.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 35,
+      "value": "\"Unable to encode object into data\""
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedListService.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 35,
+      "value": "\"Unable to decode object into data\""
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedListService.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 35,
+      "value": "\"Unable to encode object into data\""
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedListService.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 35,
+      "value": "\"Unable to decode object into data\""
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedListService.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 13,
+      "value": "\"com.kl.list\""
+    },
+    {
+      "filePath": "\/Users\/kl\/Developer\/Frameworks\/LinkedList\/LinkedList\/LinkedListService.swift",
+      "kind": "Array",
+      "offset": 2937,
+      "length": 2,
+      "value": "[]"
+    }
+  ]
+}
